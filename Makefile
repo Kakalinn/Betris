@@ -3,7 +3,7 @@ default:
 	mv deps/Stopwatch.class .
 	mv deps/Draw.class .
 	javac *.java
-	jar cmf manifest.txt Jetris.jar *.class
+	jar cmf manifest.txt Betris.jar *.class
 	rm Game.class
 	rm Menu.class
 	mv manifest.txt deps
